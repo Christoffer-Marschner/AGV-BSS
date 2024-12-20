@@ -1,8 +1,10 @@
 ﻿using System;
 
-class AussenSchnittstelle {
+class AussenSchnittstelle 
+{
 
-  static void Main(string[] args) {
+  static void Main(string[] args) 
+  {
     
   }
 
