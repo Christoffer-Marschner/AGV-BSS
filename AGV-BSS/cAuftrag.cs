@@ -7,13 +7,13 @@ class cAuftrag
   private auftragStatus_n status;
   private int pritoritaet;
 
-  public cAuftrag(int inputId, int[] inputEndPosition, int prioritaet)
+  public cAuftrag(int Id, int[] EndPosition, int prioritaet)
   {
-    id = inputId;
-    endPosition[0] = inputEndPosition[0];
-    endPosition[1] = inputEndPosition[1];
-    status = auftragStatus_n.offen;
-    prioritaet = inputPrioritaet;
+    this.id = Id;
+    this.endPosition[0] = EndPosition[0];
+    this.endPosition[1] = EndPosition[1];
+    this.status = auftragStatus_n.offen;
+    this.prioritaet = Prioritaet;
   }
 
   public int getId()
