@@ -1,4 +1,5 @@
-public enum agvStatus_n{
+public enum agvStatus_n 
+{
   fertig = 0,
   verfuegbar = 1,
   fahren = 2,
