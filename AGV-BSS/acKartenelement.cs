@@ -1,4 +1,4 @@
-abstract class acKartenelement 
+public abstract class acKartenelement 
 {
   private int x, y, id;
 

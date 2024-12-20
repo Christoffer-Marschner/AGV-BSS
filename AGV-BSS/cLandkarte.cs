@@ -1,6 +1,6 @@
 public class cLandkarte 
 {
-  private acKartenelement[] karte;
+  private acKartenelement[] karte = [];
 
   public acKartenelement[] getLandkarte() 
   {
